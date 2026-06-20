@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #ff4b4b;
+  --background-color: #0e1117;
+  --secondary-background-color: #262730;
+  --text-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family:
+    "Source Sans Pro",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th,
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+input[type="number"],
+input[type="range"] {
+  width: 100%;
+}
+
+.info-box {
+  background-color: rgba(255, 75, 75, 0.08);
+  border: 1px solid rgba(255, 75, 75, 0.3);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  margin: 12px 0 20px 0;
+}
