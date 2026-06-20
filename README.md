@@ -1,5 +1,7 @@
 # BlackScholes WebAssembly Dashboard
 
+**You can check this project live at:** [https://trcvz.github.io/blackscholes/](https://trcvz.github.io/blackscholes/)
+
 A WebAssembly-based Black-Scholes pricing engine with Svelte and C++ (Emscripten).
 
 ## Prerequisites
