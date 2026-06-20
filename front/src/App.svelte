@@ -156,10 +156,6 @@
     </div>
 
     <h1>Options Price - Interactive Heatmap</h1>
-    <div class="info-box">
-      Explore comment les prix des options varient selon le "Spot Price" et la
-      volatilité, à "Strike Price" constant.
-    </div>
 
     {#if heatmap}
       <div class="heatmaps-row">
